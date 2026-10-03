@@ -45,11 +45,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun MainScreenPreview() {
-  RandDinnerTheme { MainScreen(listOf("Android")) }
+  RandDinnerTheme { MainScreen(listOf("Foo Bar")) }
 }
 
 @Preview(showBackground = true, widthDp = 340)
 @Composable
 fun MainScreenPortraitPreview() {
-  RandDinnerTheme { MainScreen(listOf("Android")) }
+  RandDinnerTheme { MainScreen(listOf("Foo Bar")) }
 }
